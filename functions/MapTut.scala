@@ -6,7 +6,7 @@ object MapTut {
 		if (employees.contains("Manager"))
 			printf("Manager : %s\n", employees("Manager"))
 			
-		val customers = collection.mutable.Map(100 -> "Paul Smith", 101 -> "Sally Smith")
+		val customers = scala.collection.mutable.Map(100 -> "Paul Smith", 101 -> "Sally Smith")
 		
 		printf("Cust 1: %s\n", customers(100))
 		
